@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Cricket Match - India vs Australia",
+        "description": "Exciting ODI match between India and Australia at Chinnaswamy Stadium.",
+        "location": "Chinnaswamy Stadium, Bangalore",
+        "date": "2025-06-15T15:30:00Z"
+    },
+    {
+        "title": "Movie Screening - Interstellar",
+        "description": "Outdoor night screening of Interstellar with 5.1 surround sound experience.",
+        "location": "Cubbon Park Open Theatre",
+        "date": "2025-06-20T19:00:00Z"
+    },
+    {
+        "title": "Football Match - UVCE vs RVCE",
+        "description": "College league football final between UVCE and RVCE.",
+        "location": "Kanteerava Stadium",
+        "date": "2025-06-10T17:00:00Z"
+    },
+    {
+        "title": "Stand-up Comedy Night",
+        "description": "A fun evening with top local comedians.",
+        "location": "Indiranagar Comedy Club",
+        "date": "2025-06-08T20:00:00Z"
+    }
+]
