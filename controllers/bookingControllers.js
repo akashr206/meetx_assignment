@@ -10,7 +10,8 @@ const addBooking = async (req, res) => {
         const user = req.user;
         
         //check if the booking already exists
-        const bookingExists = findBooking(user.id, activity);
+        const bookingExists = await findBooking(user.id, activity);
+        
         if(bookingExists)
             return res.status(400).json({ message: "Booking already exists" });
 
