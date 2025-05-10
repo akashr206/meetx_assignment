@@ -17,4 +17,10 @@ const findAllActivities = async () => {
     return activities;
 };
 
-module.exports = { createActivity, findAllActivities };
+const findActivity = async (id) => {
+    //find one activity using its ID
+    const activity = await Activity.findOne({ id });
+    return activity;
+};
+
+module.exports = { createActivity, findAllActivities, findActivity };

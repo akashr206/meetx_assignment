@@ -97,8 +97,7 @@ Adds a new activity.
             "description": "Exciting ODI match between India and Australia at Chinnaswamy Stadium.",
             "location": "Chinnaswamy Stadium, Bangalore",
             "date": "2025-06-15T15:30:00.000Z",
-            "_id": "681cefc0976cc4cdf80a5b5d",
-            
+            "_id": "681cefc0976cc4cdf80a5b5d"
         }
     ]
 }
@@ -120,7 +119,7 @@ Returns a list of all activities.
         "title": "Cricket Match - India vs Australia",
         "description": "Exciting ODI match between India and Australia at Chinnaswamy Stadium.",
         "location": "Chinnaswamy Stadium, Bangalore",
-        "date": "2025-06-15T15:30:00.000Z",
+        "date": "2025-06-15T15:30:00.000Z"
     }
 ]
 ```
@@ -148,7 +147,7 @@ Books a spot for a user for an activity.
         "user": "9d7efa0e-0437-4f10-b988-286de397536a",
         "activity": "a854ed70-1b66-4acf-bfa3-279647c2e858",
         "_id": "681cf10f8ec31a9dbe8cf52c",
-        "bookedAt": "2025-05-08T17:59:43.215Z",
+        "bookedAt": "2025-05-08T17:59:43.215Z"
     }
 }
 ```
@@ -164,11 +163,16 @@ Fetches all bookings.
 ```json
 [
     {
-        "_id": "681ccc27a319d215752a30de",
-        "user": "9d7efa0e-0437-4f10-b988-286de397536a",
-        "activity": "5f949713-f759-463d-b0f8-d94e520abf94",
-        "bookedAt": "2025-05-08T15:22:15.113Z",
-        
+        "activity": {
+            "_id": "681cc6803bd35f40e216e6ec",
+            "id": "5f949713-f759-463d-b0f8-d94e520abf94",
+            "title": "Cricket Match - India vs Australia",
+            "description": "Exciting ODI match between India and Australia at Chinnaswamy Stadium.",
+            "location": "Chinnaswamy Stadium, Bangalore",
+            "date": "2025-06-15T15:30:00.000Z",
+        },
+        "booking_id": "681ccc27a319d215752a30de",
+        "user": "9d7efa0e-0437-4f10-b988-286de397536a"
     }
 ]
 ```
